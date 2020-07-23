@@ -12,10 +12,10 @@
     .search-button a{
         padding: 10px 0px !important;
     }
-    /* search bar */
+    /* search bar */    
     .search-bar{
-        width: 150px;
-        height: 25px;
+        width: 338px;
+        height: 45px;
         background-color: #ffffff;
     }
     /* 
@@ -113,8 +113,8 @@
     }
     /* search bar */
     .search-bar{
-        width: 150px;
-        height: 25px;
+        width: 338px;
+        height: 45px;
         background-color: #ffffff;
     }
     /* 
