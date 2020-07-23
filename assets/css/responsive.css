@@ -18,6 +18,10 @@
         height: 45px !important;
         background-color: #ffffff;
     }
+    /* close button icon */
+    .close-win i {
+        font-size: 35px;
+    }
     /* 
         sider section 
     */
@@ -116,6 +120,10 @@
         width: 338px !important;
         height: 45px !important;
         background-color: #ffffff;
+    }
+    /* close button icon */
+    .close-win i {
+        font-size: 35px;
     }
     /* 
         sider section 
