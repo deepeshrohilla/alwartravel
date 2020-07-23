@@ -1,0 +1,26 @@
+/* 
+    Footer design section
+*/
+.footer{
+    padding: 75px 0; 
+    background-color: #040E27;
+}
+.footer .brand-logo{
+    color: #ffffff;
+    text-decoration: none;
+}
+.footer p,
+.footer a{
+    width: 100%;
+    color: #AAB1B7;
+    font-size: 16px;
+    transition: 0.3s;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.footer a:hover{
+    color: #FF4A52;
+}
+hr{
+    border-color: #AAB1B7;
+}

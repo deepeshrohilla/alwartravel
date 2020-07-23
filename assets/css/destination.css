@@ -1,0 +1,154 @@
+/* 
+    destination section 
+*/
+.destination{
+    position: relative;
+    background: linear-gradient(to right, #000428, #004e92);
+}
+.destination .destination-img img{
+    opacity: 0.45;
+    width: 100%;
+    height: 550px;
+}
+.destination .destination-text{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+.destination .destination-text h1{
+    font-size: 5em;
+}
+.destination .destination-text p{
+    letter-spacing: 1px;
+}
+/* 
+    Where you go area
+*/
+.goto-area{
+    background-color: #040E27;
+    padding: 75px 0;
+}
+.goto-text h3{
+    color: #ffffff;
+    font-size: 1.45rem;
+}
+/* 
+    go to form 
+*/
+.goto-form form{
+    display: flex;
+}
+.input-field input,
+.input-field select{
+    width: 100%;
+    height: 50px;
+    background: #ffffff0c;
+    border: 1px solid #c7c7c746;
+    padding-left: 15px;
+    color: #ffffff;
+}
+.input-field input::placeholder{
+    opacity: 1;
+}
+.input-field select option{
+    background-color: #040E27;
+}
+.button-field button{
+    width: 100%;
+    background: #FF4A52;
+    color: #fff;
+    display: inline-block;
+    padding: 13px 39px;
+    border: 0;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+.button-field button:hover{
+    background-color: #ffffff;
+    color: #FF4A52;
+}
+/* 
+    Recent Trips section
+*/
+.recent-trips{
+    background: url('../images/small-wall.jpg') repeat;
+    padding: 75px 0;
+    position: relative;
+}
+.recent-trips::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #f7fafd;
+    opacity: 0.95;
+}
+.trip-card{
+    border: 5px solid #f7fafd;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.15);
+}
+.trip-card:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+.card-body .price{
+    font-size: 16px;
+    color: #ffffff;
+    padding: 5px 10px;
+    background-color: #FF4A52;
+}
+.trip-card:hover .card-body .price{
+    color: #ffffff;
+}
+.card-body p{
+    color: #AAB1B7;
+    font-size: 14px;
+}
+.card-body a{
+    display: inline-block;
+    width: 100%;
+    color: #000000;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+.trip-card:hover .card-body a{
+    color: #FF4A52;
+}
+.card-body .view-rating{
+    display: flex;
+    justify-content: space-between;
+}
+.card-body .rating{
+    display: inline-block;
+}
+.card-body .rating i{
+    font-size: 12px;
+}
+.card-body .rating span{
+    font-size: 14px;
+    color: #AAB1B7;
+    font-weight: 100;
+}
+.card:hover .card-body .rating a{
+    color: #AAB1B7;
+}
+.card-body .rating-time{
+    display: inline-block;
+    color: #AAB1B7;
+    font-size: 14px;
+}

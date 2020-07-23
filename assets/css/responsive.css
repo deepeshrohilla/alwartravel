@@ -1,0 +1,176 @@
+/* for mobile screen */
+@media only screen and (max-width:576px){
+    /* header */
+    .header{
+        padding: 0 0 0 15px;
+    }
+    /* brand logo */
+    .navbar-brand{
+        padding-left: 0px !important;
+    }
+    /* search button */
+    .search-button a{
+        padding: 10px 0px !important;
+    }
+    /* search bar */
+    .search-bar{
+        width: 300px;
+        height: 40px;
+        background-color: #ffffff;
+    }
+    /* 
+        sider section 
+    */
+    .slider-section{
+        margin-top: 70px;
+    }
+    /* slider responsive image */
+    .carousel-item img{
+        height: auto;
+    }
+    /* slider heading content */
+    .carousel-caption h1{
+        font-size: 2.5em !important;
+    }
+    .explore-btn{
+        margin: 0px 0;
+        font-size: 14px;
+        padding: 10px 25px;
+        margin-bottom: 10px;
+    }
+    /* prev and next button on slider */
+    .carousel-control-prev, 
+    .carousel-control-next{
+        width: 8%;
+    }
+    .goto-form form{
+        flex-direction: column;
+    }
+    .input-field{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    /* video section */
+    .video-img img{
+        height: auto;
+    }
+    /* 
+        About Page
+    */
+    .about{
+        margin-top: 50px;
+    }
+    .about .about-img img{
+        height: auto !important;
+    }
+    .about .about-text h1{
+        font-size: 2.5em !important;
+    }
+    /* 
+        Destination Page
+    */
+    .destination{
+        margin-top: 50px;
+    }
+    .destination .destination-img img{
+        height: auto !important;
+    }
+    .destination .destination-text h1{
+        font-size: 2.5em !important;
+    }
+    /* 
+        Contact Page
+    */
+    .contact{
+        margin-top: 50px;
+    }
+    .contact .contact-img img{
+        height: auto !important;
+    }
+    .contact .contact-text h1{
+        font-size: 2.5em !important;
+    }
+    .map iframe{
+        height: auto;
+    }
+    .form form{
+        width: 100% !important;
+    }
+}
+/* for tablet screen */
+@media (min-width:576px) and (max-width:768px){
+    /* header */
+    .header{
+        padding: 0 0 0 15px;
+    }
+    /* brand logo */
+    .navbar-brand{
+        padding-left: 0px !important;
+    }
+    /* search button */
+    .search-button a{
+        padding: 10px 0px !important;
+    }
+    /* search bar */
+    .search-bar{
+        width: 300px;
+        height: 40px;
+        background-color: #ffffff;
+    }
+    /* 
+        sider section 
+    */
+    .slider-section{
+        margin-top: 70px;
+    }
+    /* slider responsive image */
+    .carousel-item img{
+        height: auto;
+    }
+    /* slider heading content */
+    .carousel-caption h1{
+        font-size: 2.5em !important;
+    }
+    .explore-btn{
+        margin: 0px 0;
+        font-size: 14px;
+        padding: 10px 25px;
+        margin-bottom: 10px;
+    }
+    /* prev and next button on slider */
+    .carousel-control-prev, 
+    .carousel-control-next{
+        width: 8%;
+    }
+    .goto-form form{
+        flex-direction: column;
+    }
+    .input-field{
+        margin-bottom: 15px;
+    }
+    /* video section */
+    .video-img img{
+        height: auto;
+    }
+    /* 
+        About Page
+    */
+    .about .about-img img{
+        height: auto !important;
+    }
+     /* 
+        Contact Page
+    */
+    .form form{
+        width: 100% !important;
+    }
+}
+@media (max-width: 991px){
+    .tour-video video{
+        max-width: 90%;
+    }
+    /* search button */
+    .search-button a{
+        padding: 10px 0px;
+    }
+}

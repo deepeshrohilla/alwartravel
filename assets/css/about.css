@@ -1,0 +1,39 @@
+/* 
+    about section 
+*/
+.about{
+    position: relative;
+    background: linear-gradient(to right, #000428, #004e92);
+}
+.about .about-img img{
+    opacity: 0.45;
+    width: 100%;
+    height: 550px;
+}
+.about .about-text{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+.about .about-text h1{
+    font-size: 5em;
+}
+.about .about-text p{
+    letter-spacing: 1px;
+}
+/* 
+    our content section
+*/
+.our-content{
+    padding: 50px 0;
+}
+/* 
+    Journey section
+*/
+.journey{
+    padding: 75px 0;
+    background-color: #f7fafd;
+}

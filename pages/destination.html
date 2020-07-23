@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap & Custom CSS -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/header.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/destination.css">
+    <title>Alwar Travel</title>
+</head>
+
+<body>
+    <!-- Header design section -->
+    <header class="header" id="header">
+        <nav class="navbar navbar-expand-lg p-lg-0 px-0">
+            <!-- Brand logo -->
+            <a class="navbar-brand text-dark" href="/index.html"><span class="logo">Alwar</span> Travel</a>
+            <!-- Menu button on mobile screen -->
+            <button class="navbar-toggler border border-dark mr-3 justify-content-end rounded-0" type="button"
+                data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span><i class="fas fa-bars text-dark"></i></span>
+            </button>
+            <!-- Navbar items list -->
+            <div class="collapse navbar-collapse pl-lg-5 px-0" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto pt-lg-0 pt-2">
+                    <li class="nav-item px-lg-4 py-1">
+                        <a class="nav-itm" href="/index.html"><i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item px-lg-4 py-1">
+                        <a class="nav-itm" href="about.html"><i class="fa fa-info-circle"></i> About</a>
+                    </li>
+                    <li class="nav-item px-lg-4 py-1 dropdown">
+                        <a class="nav-itm active" href="destination.html"><i class="fa fa-map-marker active"></i>
+                            Destination</a>
+                    </li>
+                    <li class="nav-item px-lg-4 py-1 dropdown">
+                        <a class="nav-itm" href="contact.html"><i class="fa fa-phone-alt"></i> Contact</a>
+                    </li>
+                </ul>
+                <div class="ml-auto pt-lg-0 pt-2">
+                    <div class="px-lg-3 py-1 d-flex flex-row">
+                        <div class="pr-3">
+                            <a class="nav-itm" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="px-3">
+                            <a class="nav-itm" href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="px-3">
+                            <a class="nav-itm" href="#"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                        <div class="pl-3">
+                            <a class="nav-itm" href="#"><i class="fab fa-google-plus-g"></i></a>
+                        </div>
+                    </div>
+                    <!-- Search Button on mobile screen -->
+                    <div class="search-button d-lg-none mt-3 pr-3" id="search-btn1">
+                        <a href="JavaScript:Void(0)"><i class="fas fa-search"></i></a>
+                    </div>
+                </div>
+            </div>
+            <!-- Search Button -->
+            <div class="search-button d-none d-lg-block" id="search-btn2">
+                <a href="JavaScript:Void(0)" id="search-icon"><i class="fas fa-search"></i></a>
+            </div>
+        </nav>
+    </header>
+    <!-- Search Screen -->
+    <div class="search-screen" id="search-screen">
+        <div class="close-win" id="close-win"><i class="far fa-window-close"></i></div>
+        <form>
+            <div class="search-bar" id="search-bar">
+                <input type="text" placeholder="Search"><button type="submit">Search</button>
+            </div>
+        </form>
+    </div>
+    <!-- Destination section -->
+    <section class="destination">
+        <div class="destination-img">
+            <img src="../assets/images/img02.jpg" alt="About">
+        </div>
+        <div class="destination-text">
+            <h1>Destination</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi vero fuga at eos, cupiditate voluptate.
+            </p>
+        </div>
+    </section>
+    <!-- Where you go section -->
+    <section class="goto-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-3 col-12 col-sm-12 col-md-12">
+                    <div class="goto-text">
+                        <h3>Where you want to go?</h3>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-12 col-sm-12 col-md-12">
+                    <div class="goto-form">
+                        <form>
+                            <div class="input-field col-lg-3 col-12 col-sm-12 col-md-3 p-0 p-sm-2 p-md-2 p-lg-2">
+                                <input type="text" placeholder="Where to go?" />
+                            </div>
+                            <div class="input-field col-lg-3 col-12 col-sm-12 col-md-3 p-0 p-sm-2 p-md-2 p-lg-2">
+                                <input type="date" placeholder="Where to go?" />
+                            </div>
+                            <div class="input-field col-lg-3 col-12 col-sm-12 col-md-3 p-0 p-sm-2 p-md-2 p-lg-2">
+                                <select>
+                                    <option value="Travel Option1">Travel Option1</option>
+                                    <option value="Travel Option2">Travel Option2</option>
+                                    <option value="Travel Option3">Travel Option3</option>
+                                </select>
+                            </div>
+                            <div class="button-field col-lg-3 col-12 col-sm-12 col-md-3 p-0 p-sm-2 p-md-2 p-lg-2">
+                                <button type="submit">Search</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Recent Trips -->
+    <section class="recent-trips">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 pt-4">
+                    <div class="trip-card card">
+                        <img class="card-img-top" src="../assets/images/Bhangarh_Fort.jpg" alt="card-img-01">
+                        <div class="card-body">
+                            <span class="price">&#8377;500</span>
+                            <a href="#" class="card-title">Bhangarh Fort</a>
+                            <p><i class="fa fa-map-marker active"></i> Alwar Rajasthan IND.</p>
+                            <div class="view-rating">
+                                <span class="rating">
+                                    <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                        class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                        class="fa fa-star text-warning"></i><span>(20 Review)</span>
+                                </span>
+                                <span class="rating-time"><i class="fa fa-clock-o"></i> 5 Days</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 pt-4">
+                    <div class="trip-card card">
+                        <img class="card-img-top" src="../assets/images/sariska-palace.jpg" alt="card-img-02">
+                        <div class="card-body">
+                            <span class="price">&#8377;480</span>
+                            <a href="#" class="card-title">Sariska Palace</a>
+                            <p><i class="fa fa-map-marker active"></i> Alwar Rajasthan IND.</p>
+                            <div class="view-rating">
+                                <span class="rating">
+                                    <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                        class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                        class="fa fa-star text-warning"></i><span>(52 Review)</span>
+                                </span>
+                                <span class="rating-time"><i class="fa fa-clock-o"></i> 10 Days</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 pt-4">
+                    <div class="trip-card card">
+                        <img class="card-img-top" src="../assets/images/Vijay_mandir.jpg" alt="card-img-03">
+                        <div class="card-body">
+                            <span class="price">&#8377;510</span>
+                            <a href="#" class="card-title">Vijay Mandir</a>
+                            <p><i class="fa fa-map-marker active"></i> Alwar Rajasthan IND.</p>
+                            <div class="view-rating">
+                                <span class="rating">
+                                    <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                        class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                        class="fa fa-star text-warning"></i><span>(21 Review)</span>
+                                </span>
+                                <span class="rating-time"><i class="fa fa-clock-o"></i> 9 Days</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 pt-4">
+                    <div class="trip-card card">
+                        <img class="card-img-top" src="../assets/images/Fatahjung_gumbad.jpg" alt="card-img-04">
+                        <div class="card-body">
+                            <span class="price">&#8377;550</span>
+                            <a href="#" class="card-title">Fatehjung Gumbad</a>
+                            <p><i class="fa fa-map-marker active"></i> Alwar Rajasthan IND.</p>
+                            <div class="view-rating">
+                                <span class="rating">
+                                    <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                        class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                        class="fa fa-star text-warning"></i><span>(29 Review)</span>
+                                </span>
+                                <span class="rating-time"><i class="fa fa-clock-o"></i> 7 Days</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 pt-4">
+                    <div class="trip-card card">
+                        <img class="card-img-top" src="../assets/images/Company_Bagh.jpg" alt="card-img-05">
+                        <div class="card-body">
+                            <span class="price">&#8377;499</span>
+                            <a href="#" class="card-title">Company Bagh</a>
+                            <p><i class="fa fa-map-marker active"></i> Alwar Rajasthan IND.</p>
+                            <div class="view-rating">
+                                <span class="rating">
+                                    <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                        class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                        class="fa fa-star text-warning"></i><span>(25 Review)</span>
+                                </span>
+                                <span class="rating-time"><i class="fa fa-clock-o"></i> 2 Days</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 pt-4">
+                    <div class="trip-card card">
+                        <img class="card-img-top" src="../assets/images/Moosi_maharani_ki_chhatri.jpg" alt="card-img-06">
+                        <div class="card-body">
+                            <span class="price">&#8377;510</span>
+                            <a href="#" class="card-title">Moosi maharani ki chhatri</a>
+                            <p><i class="fa fa-map-marker active"></i> Alwar Rajasthan IND.</p>
+                            <div class="view-rating">
+                                <span class="rating">
+                                    <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                        class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                        class="fa fa-star text-warning"></i><span>(30 Review)</span>
+                                </span>
+                                <span class="rating-time"><i class="fa fa-clock-o"></i> 5 Days</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 pt-4">
+                    <div class="trip-card card">
+                        <img class="card-img-top" src="../assets/images/Neemrana_Fort_Palace.jpg" alt="card-img-07">
+                        <div class="card-body">
+                            <span class="price">&#8377;358</span>
+                            <a href="#" class="card-title">Neemrana Fort Palace</a>
+                            <p><i class="fa fa-map-marker active"></i> Alwar Rajasthan IND.</p>
+                            <div class="view-rating">
+                                <span class="rating">
+                                    <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                        class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                        class="fa fa-star text-warning"></i><span>(35 Review)</span>
+                                </span>
+                                <span class="rating-time"><i class="fa fa-clock-o"></i> 24 Days</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 pt-4">
+                    <div class="trip-card card">
+                        <img class="card-img-top" src="../assets/images/Siliserh_Lake.jpg" alt="card-img-08">
+                        <div class="card-body">
+                            <span class="price">&#8377;600</span>
+                            <a href="#" class="card-title">Siliserh Lake</a>
+                            <p><i class="fa fa-map-marker active"></i> Alwar Rajasthan IND.</p>
+                            <div class="view-rating">
+                                <span class="rating">
+                                    <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                        class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                        class="fa fa-star text-warning"></i><span>(70 Review)</span>
+                                </span>
+                                <span class="rating-time"><i class="fa fa-clock-o"></i> 16 Days</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12 pt-4">
+                    <div class="trip-card card">
+                        <img class="card-img-top" src="../assets/images/Alwar_museum.jpg" alt="card-img-09">
+                        <div class="card-body">
+                            <span class="price">&#8377;500</span>
+                            <a href="#" class="card-title">Alwar Museum</a>
+                            <p><i class="fa fa-map-marker active"></i> Alwar Rajasthan IND.</p>
+                            <div class="view-rating">
+                                <span class="rating">
+                                    <i class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                        class="fa fa-star text-warning"></i><i class="fa fa-star text-warning"></i><i
+                                        class="fa fa-star text-warning"></i><span>(39 Review)</span>
+                                </span>
+                                <span class="rating-time"><i class="fa fa-clock-o"></i> 3 Days</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer design section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row pb-5">
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                    <!-- Brand logo -->
+                    <a class="brand-logo" href="/index.html"><span class="logo">Alwar</span> Travel</a>
+                    <div class="pt-4">
+                        <p class="mb-2"><i class="fas fa-home active"></i> 140 masjid ke pas basni, mundawar, alwar IND
+                        </p>
+                        <p class="mb-2"><a href="JavaScript:Void(0)"><i class="fa fa-phone-alt active"></i> +91 8426
+                                934278</a></p>
+                        <p class="mb-2"><a class="text-lowercase" href="#"><i class="fas fa-envelope active"></i>
+                                deepeshrohilla211@gmail.com</a></p>
+                        <div class="pt-4 pb-2 d-flex flex-row">
+                            <div class="pr-3">
+                                <a class="nav-itm" href="#"><i class="fab fa-instagram"></i></a>
+                            </div>
+                            <div class="px-3">
+                                <a class="nav-itm" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                            <div class="px-3">
+                                <a class="nav-itm" href="#"><i class="fab fa-facebook-f"></i></a>
+                            </div>
+                            <div class="pl-3">
+                                <a class="nav-itm" href="#"><i class="fab fa-google-plus-g"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                    <h4 class="text-light text-capitalize">Company</h4>
+                    <div class="pt-4">
+                        <p><a href="/index.html">Home</a></p>
+                        <p><a href="about.html">About</a></p>
+                        <p><a href="destination.html">Destination</a></p>
+                        <p><a href="contact.html">Contact</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                    <h4 class="text-light text-capitalize">Popular Destination</h4>
+                    <div class="pt-4">
+                        <p><a href="#">Bhangarh Fort</a></p>
+                        <p><a href="#">Bala Quila</a></p>
+                        <p><a href="#">Moosi Maharani Ki Chhatri</a></p>
+                        <p><a href="#">Alwar City Palace</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-12 col-12">
+                    <h4 class="text-light text-capitalize">Popular Destination</h4>
+                    <div class="pt-4">
+                        <p><a href="#">Siliserh Lake</a></p>
+                        <p><a href="#">Sariska Palace</a></p>
+                        <p><a href="#">Company Bagh</a></p>
+                        <p><a href="#">Vijay Mandir</a></p>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-5">
+            <p class="text-center">Copyright © 2020 All rights reserved | This website is made by Deepesh Rohilla</p>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../assets/js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.js"></script>
+    <!-- fontawesome kit -->
+    <script src="https://kit.fontawesome.com/ffb6896c4c.js" crossorigin="anonymous"></script>
+    <!-- Custom JavaScript -->
+    <script src="../assets/js/script.js"></script>
+</body>
+
+</html>
