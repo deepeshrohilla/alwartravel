@@ -14,8 +14,8 @@
     }
     /* search bar */    
     .search-bar{
-        width: 338px;
-        height: 45px;
+        width: 338px !important;
+        height: 45px !important;
         background-color: #ffffff;
     }
     /* 
