@@ -1,7 +1,7 @@
 /* for mobile screen */
 @media only screen and (max-width:576px){
     h1{
-        font-size: 1.5em;
+        font-size: 2em;
     }
     /* header */
     .header{
@@ -37,7 +37,7 @@
     }
     /* slider heading content */
     .carousel-caption h1{
-        font-size: 1.5em !important;
+        font-size: 2em !important;
     }
     .explore-btn{
         margin: 0px 0;
@@ -74,7 +74,7 @@
         height: auto !important;
     }
     .about .about-text h1{
-        font-size: 2.5em !important;
+        font-size: 2em !important;
     }
     /* 
         Destination Page
@@ -86,7 +86,7 @@
         height: auto !important;
     }
     .destination .destination-text h1{
-        font-size: 1.5em !important;
+        font-size: 2em !important;
     }
     /* 
         Contact Page
@@ -98,7 +98,7 @@
         height: auto !important;
     }
     .contact .contact-text h1{
-        font-size: 1.5em !important;
+        font-size: 2em !important;
     }
     .map iframe{
         height: auto;
@@ -110,7 +110,7 @@
 /* for tablet screen */
 @media (min-width:576px) and (max-width:768px){
     h1{
-        font-size: 1.5em;
+        font-size: 2em;
     }
     /* header */
     .header{
@@ -146,7 +146,7 @@
     }
     /* slider heading content */
     .carousel-caption h1{
-        font-size: 1.5em !important;
+        font-size: 2em !important;
     }
     .explore-btn{
         margin: 0px 0;
