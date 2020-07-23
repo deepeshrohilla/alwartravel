@@ -1,5 +1,8 @@
 /* for mobile screen */
 @media only screen and (max-width:576px){
+    h1,h4{
+        font-size: 1.5em;
+    }
     /* header */
     .header{
         padding: 0 0 0 15px;
@@ -21,6 +24,9 @@
     /* close button icon */
     .close-win i {
         font-size: 35px !important;
+    }
+    .carousel-caption h1{
+        font-size: 1.5em;
     }
     /* 
         sider section 
@@ -46,6 +52,9 @@
     .carousel-control-prev, 
     .carousel-control-next{
         width: 8%;
+    }
+    .goto-text h3{
+        font-size: 1.5em;
     }
     .goto-form form{
         flex-direction: column;
