@@ -1,6 +1,6 @@
 /* for mobile screen */
 @media only screen and (max-width:576px){
-    h1,h4{
+    h1{
         font-size: 1.5em;
     }
     /* header */
@@ -25,9 +25,6 @@
     .close-win i {
         font-size: 35px !important;
     }
-    .carousel-caption h1{
-        font-size: 1.5em;
-    }
     /* 
         sider section 
     */
@@ -40,7 +37,7 @@
     }
     /* slider heading content */
     .carousel-caption h1{
-        font-size: 2.5em !important;
+        font-size: 1.5em !important;
     }
     .explore-btn{
         margin: 0px 0;
@@ -89,7 +86,7 @@
         height: auto !important;
     }
     .destination .destination-text h1{
-        font-size: 2.5em !important;
+        font-size: 1.5em !important;
     }
     /* 
         Contact Page
@@ -101,7 +98,7 @@
         height: auto !important;
     }
     .contact .contact-text h1{
-        font-size: 2.5em !important;
+        font-size: 1.5em !important;
     }
     .map iframe{
         height: auto;
@@ -112,7 +109,7 @@
 }
 /* for tablet screen */
 @media (min-width:576px) and (max-width:768px){
-    h1,h4{
+    h1{
         font-size: 1.5em;
     }
     /* header */
@@ -149,7 +146,7 @@
     }
     /* slider heading content */
     .carousel-caption h1{
-        font-size: 2.5em !important;
+        font-size: 1.5em !important;
     }
     .explore-btn{
         margin: 0px 0;
